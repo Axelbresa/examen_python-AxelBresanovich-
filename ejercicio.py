@@ -18,12 +18,7 @@
 l=[]
 
 def eliminar_duplicados(list):
-    for i in list:
-        print(list[i])
-        # if i!=list[i]:
-        #     print("lista:", list[i])
-        #     print("i: ", i)
-
-
+    list=set(lista)
+    return list
 lista=[1, 2, 3, 4, 4, 5, 6, 6, 7]
-eliminar_duplicados(lista)
+print(eliminar_duplicados(lista))
